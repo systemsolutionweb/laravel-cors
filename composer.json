@@ -25,6 +25,9 @@
         "squizlabs/php_codesniffer": "^3.5",
         "orchestra/testbench-dusk": "^4|^5|^6|^7"
     },
+    "replace": {
+        "fruitcake/laravel-cors": "self.version"
+    },
     "autoload": {
         "psr-4": {
             "Fruitcake\\Cors\\": "src/"
